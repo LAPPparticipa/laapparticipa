@@ -1,0 +1,21 @@
+=> 
+[32m#<ActionMailer::MailDeliveryJob:0x000077eb31d2bd80[0m
+ @_halted_callback_hook_called[32m=[0m[36m[1mnil[0m,
+ @_scheduled_at_time[32m=[0m[36m[1mnil[0m,
+ @arguments[32m=[0m
+  [[31m[1m"[0m[31mDeviseMailer[0m[31m[1m"[0m,
+   [31m[1m"[0m[31mconfirmation_instructions[0m[31m[1m"[0m,
+   [31m[1m"[0m[31mdeliver_now[0m[31m[1m"[0m,
+   {[33m:[0m[33margs[0m=>
+     [[32m#<User id: 3, email: "prueba.lapp@gmail.com", created_at: "2025-07-04 22:35:13.718217230 +0200", updated_at: "2025-07-04 22:35:13.718217230 +0200", email_on_comment: false, email_on_comment_reply: false, phone_number: nil, official_position: nil, official_level: 0, hidden_at: nil, sms_confirmation_code: nil, username: "prueba_lapp", document_number: nil, document_type: nil, residence_verified_at: nil, email_verification_token: nil, verified_at: nil, unconfirmed_phone: nil, confirmed_phone: nil, letter_requested_at: nil, confirmed_hide_at: nil, letter_verification_code: nil, failed_census_calls_count: 0, level_two_verified_at: nil, erase_reason: nil, erased_at: nil, public_activity: true, newsletter: true, notifications_count: 0, registering_with_oauth: false, locale: nil, oauth_email: nil, geozone_id: nil, gender: nil, date_of_birth: nil, email_digest: true, email_on_direct_message: true, official_position_badge: false, password_changed_at: "2025-07-04 22:35:13.718033553 +0200", created_from_signature: false, failed_email_digests_count: 0, former_users_data_log: "", public_interests: false, recommended_debates: true, recommended_proposals: true, subscriptions_token: nil, registering_from_web: false>[0m,
+      [31m[1m"[0m[31mc545bcLXDwpxLtDCvGC5[0m[31m[1m"[0m,
+      {}]}],
+ @exception_executions[32m=[0m{},
+ @executions[32m=[0m[34m[1m0[0m,
+ @job_id[32m=[0m[31m[1m"[0m[31m3facb6ae-3cee-44cf-9c31-47616cd85f34[0m[31m[1m"[0m,
+ @priority[32m=[0m[36m[1mnil[0m,
+ @provider_job_id[32m=[0m[36m[1mnil[0m,
+ @queue_name[32m=[0m[31m[1m"[0m[31mdefault[0m[31m[1m"[0m,
+ @scheduled_at[32m=[0m[36m[1mnil[0m,
+ @successfully_enqueued[32m=[0m[36m[1mtrue[0m,
+ @timezone[32m=[0m[31m[1m"[0m[31mMadrid[0m[31m[1m"[0m[32m>[0m

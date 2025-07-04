@@ -112,3 +112,4 @@ group :development do
 end
 
 eval_gemfile "./Gemfile_custom"
+gem "msgpack", ">= 1.7.0"

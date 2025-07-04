@@ -1,0 +1,3 @@
+default:
+  default_from_email: 'laboratorio.kevin.g@gmail.com'
+  email_sender_name: 'LAPP Participa'
