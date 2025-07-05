@@ -1,0 +1,33 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  pool: 5
+  schema_search_path: "public,shared_extensions"
+  username: postgres
+  password: "123456"
+
+
+
+development: &development
+  <<: *default
+  database: consul_development
+
+staging:
+  <<: *development
+
+preproduction:
+  <<: *development
+
+production:
+  <<: *default
+  database: laapp_production
+  username: lappadmin
+  password: Zwf1pfnyBethk5LMt1PuDEl26qBE5hIY
+  host: dpg-d1k9uth5pdvs73ai5e0g-a
+  port: 5432
+
+test:
+  <<: *default
+  database: consul_test
+
