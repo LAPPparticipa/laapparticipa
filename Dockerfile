@@ -55,6 +55,7 @@ RUN npm install
 
 # Copy the Rails application into place
 COPY . .
+RUN chown -R consul:consul /var/www/consul
 
 ENTRYPOINT ["./docker-entrypoint.sh"]
 # Define the script we want run once the container boots
