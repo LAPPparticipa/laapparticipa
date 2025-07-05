@@ -111,5 +111,9 @@ group :development do
   gem "web-console", "~> 4.2.1"
 end
 
+group :production do
+  gem 'rails_12factor'
+end
+
 eval_gemfile "./Gemfile_custom"
 gem "msgpack", ">= 1.7.0"
