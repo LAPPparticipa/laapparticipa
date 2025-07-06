@@ -7,7 +7,7 @@ RUN mkdir /app
 WORKDIR /app
 
 COPY Gemfile Gemfile.lock ./
-RUN bundle install --without development test
+RUN bundle install --without development test --verbose
 
 COPY . .
 
