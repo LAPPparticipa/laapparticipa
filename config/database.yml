@@ -20,12 +20,7 @@ preproduction:
   <<: *development
 
 production:
-  <<: *default
-  database: <%= ENV["DATABASE_NAME"] %>
-  username: <%= ENV["DATABASE_USER"] %>
-  password: <%= ENV["DATABASE_PASSWORD"] %>
-  host: <%= ENV["DATABASE_HOST"] %>
-  port: <%= ENV["DATABASE_PORT"] || 5432 %>
+  url: postgresql://lappadmin:Zwf1pfnyBethk5LMt1PuDEl26qBE5hIY@dpg-d1k9uth5pdvs73ai5e0g-a.oregon-postgres.render.com/laapp_production
 
 test:
   <<: *default
